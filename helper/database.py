@@ -17,7 +17,7 @@ class Database:
             caption=None,
             thumbnail=None,
             ffmpegcode=None,
-            metadata=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Kdramaland" -metadata author="@powerleech" -metadata:s:s title="Subtitled By :- @Kdramaland" -metadata:s:a title="By :- @Kdramaland" -metadata:s:v title="By:- @powerleech" """,
+            metadata=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- UNKNOWN" -metadata author="UNKNOWN" -metadata:s:s title="Subtitled By :- UNKNOWN" -metadata:s:a title="By :- UNKNOWN" -metadata:s:v title="By:- UNKNOWN" """,
             ban_status=dict(
                 is_banned=False,
                 ban_duration=0,
