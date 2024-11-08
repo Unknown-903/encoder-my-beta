@@ -34,7 +34,7 @@ Send me the correct ffmpeg code for more info.
 
 <code> -c:v libx264 -crf 23 </code> Tʜɪs ɪs ʏᴏᴜʀ ғғᴍᴘᴇɢ ᴄᴏᴅᴇ ✅
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @powerleech
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Officialcreater
 """
 
     SEND_METADATA ="""
@@ -44,7 +44,7 @@ Send me the correct ffmpeg code for more info.
 
 ◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="My Video" -metadata author="John Doe" -metadata:s:s title="Subtitle Title" -metadata:s:a title="Audio Title" -metadata:s:v title="Video Title" </code>
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @powerleech
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Officialcreater
 """
 
     
@@ -62,7 +62,7 @@ Available commands:-
 ➜ To Set Thumbnail just send photo
 
 
-<b>⦿ Developer:</b> <a href=https://t.me/powerleech>meow</a>
+<b>⦿ Developer:</b> <a href=https://t.me/Officialcreater>UNKNOWN</a>
 """
 
     ABOUT_TXT = """nothing"""
