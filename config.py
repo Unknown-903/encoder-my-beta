@@ -5,20 +5,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "22724444")  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "d88e1dcdd8c5601832784adfc580442d") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6516534850:AAH-uHTGaxFQ06ZXNbH-z2Sqh1TKoSRFREo") # ⚠️ Required
-    FORCE_SUB = os.environ.get('FORCE_SUB', '') # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "22409622")  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "16353e2a4d45ff8be4a2037cca158749") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7057949515:AAHIxldaPMNEMZnNHYlutV6qDHg-y2P0KVs") # ⚠️ Required
+    FORCE_SUB = os.environ.get('FORCE_SUB', '-1002021288035') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://vps:vps@cluster0.o4ghvi3.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
-    DB_NAME  = os.environ.get("DB_NAME","SnowEncoderBot1") 
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Dschut:Divyansh03#@cluster0.iwjda.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
+    DB_NAME  = os.environ.get("DB_NAME","dschut") 
 
     # Other Configs
-    ADMIN = int(os.environ.get("ADMIN", "1361989901"))
-    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002113925075')) # ⚠️ Required
+    ADMIN = int(os.environ.get("ADMIN", "1119579816 6427494689 6590736993 1785065025 6315792232 1735152469 5574593875 7211073530"))
+    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002332764222')) # ⚠️ Required
     BOT_UPTIME = BOT_UPTIME  = time.time()
     START_PIC = os.environ.get("START_PIC", "https://graph.org/file/e9d1f661f58c7d6aa4370.jpg")
 
